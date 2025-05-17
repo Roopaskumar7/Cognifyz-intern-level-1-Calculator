@@ -1,11 +1,7 @@
-# Basic Calculator Program
 
-# Get input from the user
 num1 = float(input("Enter the first number: "))
 operator = input("Enter an operator (+, -, *, /, %): ")
 num2 = float(input("Enter the second number: "))
-
-# Perform calculation based on the operator
 if operator == '+':
     result = num1 + num2
     print("Result:", result)
